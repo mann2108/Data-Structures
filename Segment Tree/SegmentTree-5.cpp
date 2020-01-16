@@ -68,7 +68,7 @@ ll update(ll v,ll tl,ll tr,ll pos,ll value){
         if(pos<=tm)
         update(2*v,tl,tm,pos,value);
         else
-        update(2*v,tm+1,tr,pos,value);
+        update(2*v+1,tm+1,tr,pos,value);
         t[v]=t[2*v]+t[2*v+1];
     }
 
