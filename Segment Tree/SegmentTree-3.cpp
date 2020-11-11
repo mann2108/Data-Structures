@@ -1,4 +1,4 @@
-/// @author man2108
+/// @author mann2108
 /// SEGMENT TREE IMPLEMENTATION
 
 /** Max with it's Occurrences in given range query*/
